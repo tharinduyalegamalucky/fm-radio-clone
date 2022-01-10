@@ -1,0 +1,48 @@
+description: "A new Flutter application."
+name: "flutterapp"
+publish_to: "none"
+version: "1.0.0+1"
+dependencies: 
+  cupertino_icons: "^0.1.3"
+  path_drawing: "^0.4.1"
+  flutter: 
+    sdk: "flutter"
+dev_dependencies: 
+  flutter_test: 
+    sdk: "flutter"
+environment: 
+  sdk: ">=2.7.0 <3.0.0"
+flutter: 
+  assets: 
+    - "assets/images/"
+  fonts: 
+    - 
+      family: "Rock Salt"
+      fonts: 
+        - 
+          asset: "fonts/RockSalt-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Roboto Condensed"
+      fonts: 
+        - 
+          asset: "fonts/RobotoCondensed-700.ttf"
+          style: "normal"
+          weight: 700
+    - 
+      family: "Roboto"
+      fonts: 
+        - 
+          asset: "fonts/Roboto-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Roboto-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Roboto-300.ttf"
+          style: "normal"
+          weight: 300
+  uses-material-design: true
